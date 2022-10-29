@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.body1 {
+    background-color: white;
+}
+
+.nav-superior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-menu {
+    border: none;
+    background: none;
+}
+.inicio-menu {
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-menu, .ini-menu, .campana {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 10%;
+    margin-left: 10px;
+    margin-right: 90px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.container, .container-login, .container-reset, .container-registro {
+    background-color: black;
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-home {
+    background-color: white;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs-home {
+    margin: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-indesign {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 55vh;
+    margin-right: 10vh;
+    margin-bottom: 30vh;
+}
+
+.img-illustrator {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30vh;
+
+}   
+
+.nav-inferior {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ini, .mis-clases, .perfil {
+    margin: auto;
+    width: 6%;
+    margin-left: 30px;
+    margin-right: 90px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+
+}
+
+.recursos {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cursos, .consejos, .apps {
+    margin: auto;
+    width: 15%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    background: #d7f143;
+    padding: 20px;
+    border-width: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ultima-clase {
+    font-family: 'Poppins medium', sans-serif;
+    font-size: xx-large;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin-bottom: 50px;   
+}
+
+.imagen {
+    height: 250px;
+    width: 250px;
+
+}
+
+.titulo {
+    font-family: 'Poppins', sans-serif;
+    color:  white;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.msj-hola {
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.inicia {
+    font-family: 'Poppins', sans-serif;
+    color:  white;
+    font-size:xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datos {
+    font-family:'Poppins medium', sans-serif;
+    margin-bottom: 30vh;
+    color:  white;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msj-advertencia, .bienvenido {
+    font-family: 'Poppins', sans-serif;
+    color:  white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datos-olvidados {
+    font-family:'Poppins', sans-serif;
+    font-size: 30px;
+    margin-bottom: 15vh;
+    color:  white;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingresa-datos {
+    font-family:'Poppins medium', sans-serif;
+    font-size: 60px;
+    margin-bottom: 20vh;
+    color:  white;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgcandado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.instrucciones {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.indicaciones-contrasena {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.texto-justificado {
+    text-align: center;
+}
+.ingresa-cuenta {
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 0;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    background: #d7f143;
+    padding: 15px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.ingresar-registro {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    background: #d7f143;
+    padding: 15px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.usuario, .correo, .nombre-completo, .nombre-usuario {
+    color: white;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blueviolet;
+    background: black;
+    padding: 15px 20px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-usuario {
+    display: block;
+    background: none;
+    border: none;
+    height: 30px;
+    width: 100%;
+    color: white;
+    font-family: 'Open sans', sans-serif;
+}
+
+::placeholder {
+    color: white;
+    font-family: 'Open sans', sans-serif;
+    font-size: large;
+}
+
+.contrasena {
+    color: white;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blueviolet;
+    background: black;
+    padding: 15px 20px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-contrasena {
+    display: block;
+    background: none;
+    border: none;
+    height: 30px;
+    width: 100%;
+    color: white;
+    font-family: 'Open sans', sans-serif;
+    align-items: baseline;
+}
+
+.btn-asistencia {
+    font-family: 'Open sans', sans-serif;
+    color: white;
+    background-color: black;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    border-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.recuerdame {
+    margin-right: 300px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.footer {
+    height: min-content;
+}
+
+.boton1 {
+    border: none;
+    background: none;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.invitado {
+    color: white;
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blueviolet;
+    background: black;
+    padding: 15px 20px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton2 {
+    border: none;
+    background: none;
+}
+
+.ingresar {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 45vh;
+    border-radius: 25px;
+    background: #d7f143;
+    padding: 15px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recuperar-contrasena {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 45vh;
+    border-radius: 25px;
+    background: #d7f143;
+    padding: 15px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1 {
+    border: none;
+    background: none;
+}
+
+.footer1 {
+    background-color: black;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25vh;
+    margin-bottom: 0%;
+    border-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.footer2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.ftr2 {
+    margin-bottom: 15px;
+}
